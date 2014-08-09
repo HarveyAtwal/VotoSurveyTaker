@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VOTO Survey Taker</string>
+    <string name="hello_world">Bonjour tout le monde!</string>
+    <string name="title_activity_question_list">QuestionListActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_survey_lister">Question</string>
+    <string name="moreInfoForSurvey">Plus d\'infos sondage>>></string>
+    <string name="refreshing">l\'actualisation de la liste des enquêtes....</string>
+    <string name="submit">Soumettre</string>
+    <string name="resubmit">Soumettre à nouveau</string>
+    <string name="submitMessage">Réponse soumis</string>
+    <string name="invalidPhoneNumber">Invalid numéro de téléphone</string>
+    
+    <string name="survey_lister_title">Enquêtes</string>
+    <string name="drawer_open">Paramètres</string>
+    <string name="drawer_close">Liste d\'enquête</string>
+    
+    <string name="completed_questions">Terminé %1$d de %2$d Question</string>
+    <string name="question">Question </string>
+    <string name="of"> de </string>
+    
+    <string name="swipe_down">Glissez vers le bas pour rafraîchir</string>
+    <string name="refresh_text">Rafraîchissant Invitations</string>
+
+    <!-- Question Activity -->
+    <string name="introduction">Introduction</string>
+    <string name="conclusion">Conclusion</string>
+    <string name="Open_Question_Label">Entrez votre réponse ici et cliquez sur Envoyer lorsque vous avez terminé</string>
+    
+    <!-- Splash Activity  -->
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="slogan_one">plus Voices,</string>
+    <string name="slogan_two">De meilleurs choix.</string>
+    
+    <!-- Sign In Activity  -->
+    <string name="sign_in">Identifiez-vous</string>
+    <string name="enter_phone_number">Numéro de téléphone</string>
+    <string name="remember_me">Se souvenir de moi</string>
+    <string name="sign_up"><![CDATA[<a href="https://go.votomobile.org/register">Pas encore membre?</a><br/>]]></string>
+    
+    <!-- Settings Activity  -->
+    <string name="language">Langue</string>
+    <string name="account_settings">Paramètres du compte</string>
+    <string name="application_settings">Paramètres de l\'application</string>
+    <string name="notifications">Notifications</string>
+    <string name="vibrate">Vibreur</string>
+    <string name="phone_led">Téléphone LED</string>
+    
+    <!-- About Activity -->
+    <string name="version">Version %1$s</string>
+    <string name="copyright">\@2014 VotoMobile</string>
+    <string name="developed_by">Développé par:</string>
+    <string name="olawunmi">Olawunmi Kolawole</string>
+    <string name="harveen">Harveen Atwal</string>
+    <string name="alex">Alex Sachkov</string>
+    <string name="brian">Réseau de bibliothèque de Proxy également créé dans le cadre du MIT licence open source par le Dr Brian Fraser, l\'Université Simon Fraser</string>
+    <string name="voto_about">
+        VOTO amplifie la voix de la sous-entendu. Notre notification de téléphone mobile et la plate-forme de l\'enquête<b>supprime les obstacles à la communication mobile perspicace</b>
+        entre les citoyens africains et les organismes qui les desservent.</string>
+    <string name="open_source"><a href="http://www.opensource.org/licenses/MIT">http://www.opensource.org/licenses/MIT</a></string>
+    
+    <string-array name="menu_titles">
+	    <item>Maison</item>
+	    <item>Options de</item>
+	    <item>Paramètres généraux</item>
+	    <item>Centre d\'aide</item>
+	    <item>Sur</item>
+	    <item>Déconnexion</item>
+   	</string-array>
+    
+    <!-- Drawer Strings -->
+    <string name="draw_home">Maison</string>
+    <string name="draw_general_settings">Paramètres généraux</string>
+    <string name="draw_settings">paramètres</string>
+    <string name="draw_account_settings">Paramètres du compte</string>
+    <string name="draw_application_settings">Paramètres de l\'application</string>
+    <string name="draw_help_center">Centre d\'aide</string>
+    <string name="draw_about">Sur</string>
+    <string name="draw_log_out">Déconnexion</string>
+    
+    <!--  More Details Dialog -->
+    <string name="show_details">Voir les détails</string>
+    <string name="hide_details">Cacher les détails</string>
+    <string name="proceed_button_label">procéder</string>
+    <string name="default_fragment_label">Remplacer onCreate de changer la mise en page</string>
+    <string name="number_out_of_range">Nombre doit être compris entre -2 milliards d\'euros et 2 milliards</string>
+    <string name="errorTitle">Erreur</string>
+    <string name="networkErrorTitle">Erreur Réseau</string>
+    <string name="errorMessageA">Impossible d\'accéder au serveur et aucun détail n\'est disponible.</string>
+    <string name="errorMessageB">Impossible de se connecter au serveur.</string>
+    <string name="notification_message">Vous devez régler "Se souvenir de moi" case lors de la connexion afin de recevoir des notifications</string>
+    
+    <!--  Action Icon Names -->
+    <string name="action_settings">Paramètres</string>
+    <string name="action_refresh">Actualiser</string>
+    <string name="action_next">Suivant</string>
+    <string name="action_prev">Précédent</string>
+    
+</resources>

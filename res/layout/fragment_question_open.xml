@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkwhite" >
+
+    <TextView
+        android:id="@+id/question_text_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/submit_question_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@xml/button"
+        android:textColor="@color/white"
+        android:text="@string/submit" />
+
+    <EditText
+        android:id="@+id/answer_textbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submit_question_button"
+        android:layout_below="@+id/question_text_label"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@xml/open_ended_edit_text"
+        android:gravity="top|left"
+        android:hint="@string/Open_Question_Label"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:typeface="serif" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

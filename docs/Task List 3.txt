@@ -1,0 +1,47 @@
+Scrum Master: Alex Sachkov
+
+Task List:
+
+1) Internationalization[Olawunmi]
+
+	[Olawunmi] 	1.1) Allow user to select one of the supported languages
+
+2) Push notifications
+
+	2.1) Upon login:
+
+	[Alex] 		2.1.1) application contacts Google Cloud Messaging (GCM) and registers for push notifications
+	[Alex] 		2.1.2) application transmits its GCM ID (received from GCM) to VOTO
+
+	2.2) Upon application termination (still logged in)
+
+	[Alex] 		2.2.1) application receives GCM push notifications and adds a notification to Android's Notification Area.
+
+	[Alex] 		2.3) Upon tapping on the notification, the user is taken to the application
+
+	[Alex] 		2.4) Upon logout, application unregisters the user's GCM ID with VOTO
+
+
+3) User Interface
+
+	3.1) Long text must be properly handled in all cases
+
+4) Invitation List
+
+	[Olawunmi/Harvey]	4.1) Highlight un-completed surveys
+	
+	[Harvey]		4.2) Sort surveys:
+
+		4.2.1) Primary sort order: uncompleted surveys are shown above completed surveys
+		4.2.2) Secondary sort order: sort invitations by date; newest at the top
+
+5) About Screen
+
+	[Harvey/Olawunmi] 	5.1) shows the names of all group members, a license statement, and any attributions for code
+  					written by others that is used in the application
+
+	[Alex] 			5.2) add the license file to the "docs" folder named License.txt
+
+6) Team specific changes
+	
+	[Olawunmi]		6.1) incorporate the team specific changed when ever they are available

@@ -1,0 +1,61 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.NoActionBar">
+        <!-- API 14 theme customizations can go here. -->
+        
+    </style>
+    
+    <style name="Theme.Styled.NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+	</style>
+    <!--  Maroon Theme  -->
+    <style name="Theme.Styled.Maroon" parent="@style/Theme.AppCompat.Light">
+	    <!-- Setting values in the android namespace affects API levels 14+ -->
+	    <item name="android:actionBarStyle">@style/Widget.Styled.ActionBarMaroon</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBarMaroon</item>
+        <item name="ptrHeaderStyle">@style/Widget.Custom.PtrHeader</item>
+	</style>
+	<style name="Widget.Styled.ActionBarMaroon" parent="@style/Widget.AppCompat.Light.ActionBar">
+	    <!-- Setting values in the android namespace affects API levels 14+ -->
+	    <item name="android:displayOptions">showHome|homeAsUp|showTitle</item>
+	    <item name="android:icon">@android:color/transparent</item>
+    	<item name="android:background">@xml/action_bar_maroon</item>
+	    <item name="android:progressBarPadding">0dip</item>
+	</style>
+	
+    <!--  Default Theme  -->
+    <style name="Theme.Styled" parent="@style/Theme.AppCompat.Light">
+	    <!-- Setting values in the android namespace affects API levels 14+ -->
+	    <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="ptrHeaderStyle">@style/Widget.Custom.PtrHeader</item>
+	</style>
+	
+    
+	<style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+	    <!-- Setting values in the android namespace affects API levels 14+ -->
+	    <item name="android:displayOptions">showHome|homeAsUp|showTitle</item>
+	    <item name="android:icon">@android:color/transparent</item>
+    	<item name="android:background">@xml/action_bar_green</item>
+	    <item name="android:progressBarPadding">0dip</item>
+	</style>
+	
+    <style name="Widget.Custom.PtrHeader" parent="android:Widget">
+        <item name="ptrHeaderTitleTextAppearance">@style/TextAppearance.Custom.PtrHeader.Title</item>
+        <item name="ptrPullText">@string/swipe_down</item>
+        <item name="ptrRefreshingText">@string/refresh_text</item>
+        <item name="ptrProgressBarHeight">2dp</item>
+    </style>
+
+    <style name="TextAppearance.Custom.PtrHeader.Title"
+           parent="android:TextAppearance.Large.Inverse">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+</resources>
+

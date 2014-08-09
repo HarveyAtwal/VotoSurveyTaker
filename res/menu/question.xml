@@ -1,0 +1,13 @@
+<menu xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_prev_item"
+        android:icon="@drawable/ic_previous"
+        android:title="@string/action_prev"
+	    yourapp:showAsAction="always" />
+    <item
+        android:id="@+id/action_next_item"
+        android:icon="@drawable/ic_next"
+        android:title="@string/action_next"
+	    yourapp:showAsAction="always" />
+</menu>

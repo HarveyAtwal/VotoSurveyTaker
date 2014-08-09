@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.cmpt276.votosurveytaker"
+    android:versionCode="3"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    
+    <permission android:name="ca.cmpt276.votosurveytaker.permission.C2D_MESSAGE"
+    android:protectionLevel="signature" />
+	<uses-permission android:name="ca.cmpt276.votosurveytaker.permission.C2D_MESSAGE" />
+
+
+    <application
+        android:name="ca.cmpt276.votosurveytaker.data.ApplicationManager"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <receiver
+            android:name=".notification.GcmBroadcastReceiver"
+            android:enabled="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="ca.cmpt276.votosurveytaker" />
+            </intent-filter>
+            
+             <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="ca.cmpt276.votosurveytaker" />
+            </intent-filter>
+        </receiver>
+        
+        <service android:name=".notification.GcmIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="ca.cmpt276.votosurveytaker.QuestionActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Styled" >
+        </activity>
+        <activity
+            android:name="ca.cmpt276.votosurveytaker.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Styled" >
+        </activity>
+        <activity
+            android:name="ca.cmpt276.votosurveytaker.RegistrationActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Styled.NoActionBar" >
+        </activity>
+        <activity
+            android:name="ca.cmpt276.votosurveytaker.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Styled.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

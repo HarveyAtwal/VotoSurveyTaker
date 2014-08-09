@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  >
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/darkwhite"
+	    android:orientation="vertical"
+	    android:paddingBottom="20dp"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="20dp"
+	    android:paddingTop="10dp"
+	    android:theme="@style/Theme.Styled" >
+	
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="20dp"
+	        android:src="@drawable/ic_launcher" />
+	
+	    <TextView
+	        android:id="@+id/txtVersion"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:paddingTop="20dp"
+	        android:text="@string/version"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#58585b" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/copyright"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#58585b" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:paddingTop="20dp"
+	        android:text="@string/developed_by"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#58585b" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:paddingTop="5dp"
+	        android:text="@string/olawunmi"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#58585b" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/harveen"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#58585b" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:paddingBottom="15dp"
+	        android:text="@string/alex"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#58585b" />
+
+	    <TextView
+	        android:id="@+id/aboutTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/brian"
+	        android:textColor="@color/darkgrey" />
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#a8a8ab" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:paddingTop="20dp"
+	        android:text="@string/voto_about"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#58585b" />
+	
+	    <TextView
+	        android:id="@+id/linkTextView"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.12"
+	        android:autoLink="web"
+	        android:gravity="center"
+	        android:linksClickable="true"
+	        android:paddingTop="20dp"
+	        android:text="@string/open_source"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#3879d9" />
+	
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+Task List:(Supported languages: English and French) Scrum Master: Olawunmi Kolawole
+
+1. Questions Screen:
+	[Harvey] 1.1 Prevent User from submitting empty space for text questions.
+
+	[Alex] 1.2 Show radio buttons for multiple Choice questions.
+
+	[Alex / Harvey] 1.3 Show Numerical Question responses with number only textBox: a number between -2 billion and 2 Billion. Anything other than this is prevented by the application.
+
+	[Olawunmi / Harvey] 1.4 Show friendly connection error when the user disconnects internet connection and wants to view an invitation. The user can re-connect and then resume the application/refresh the invitation list.
+
+	[Alex ]1.5 Introduction message before taking the survey and conclusion message after taking the survey. Users can go back to that screen if they wish.
+
+	[Harvey]1.6 Message with text and voice content:
+		[Harvey] 1.6.1 User clicks button to begin, Pause, stop, audio playback.
+		[Harvey] 1.6.2 App shows indication that the audio is being downloaded or buffering.
+		[Harvey] 1.6.3 User moves to another screen and the audio stops playing.
+
+2. Log-in Screen:
+	[Olawunmi] 2.1 Allow user to log out so that another user can log in.
+
+	[Harvey] 2.2 Show good error message when user logs in with false credentials.
+
+3. Good Error Messages:
+	
+	[Harvey] 3.2 Error dialogs have button to show more details.
+	
+	[Olawunmi] 3.3  Error Dialogs have text that can be translated to another language.
+
+4. App internationalization:
+
+	[Olawunmi] 4.1 User changes language settings in the android settings and the application displays all strings in the correct language Android can set do this easily if configured properly.
+
+	
+
+	

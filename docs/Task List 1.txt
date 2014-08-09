@@ -1,0 +1,53 @@
+					~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					~~~~~~~~~~~~~~~~~ TEAM JASPER ~~~~~~~~~~~~~~~~~~~~
+					~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Scrum Master: Harveen Atwal
+
+Development Tasks:
+
+1. Welcome Screen:
+	[harvey] 	1.1 Animated
+	[harvey] 	1.2 [ May prompt login screen here ]
+	
+2. Login Screen:
+	[harvey] 	2.1 Prompt user for phone number
+	[harvey] 	2.2 [ May automatically set to use real number ]
+	[harvey] 	2.3 Login to Voto Mobile Server to retrieve user ID
+	[harvey] 	2.4 Store User ID for future uses
+	
+	Variation 1
+		[harvey] 	- If user entered phone number, application skips Login Screen
+
+	Variation 2
+		[harvey] 	- If phone number is rejected from server than server shows user-friendly error message
+		
+3. Survey List Screen
+
+	[Olawunmi / Alex] 	3.1 Show list of surveys user is invited to take
+	[Olawunmi] 		3.2 Each survey shows: Title, Invitation Date, Number of Questions answers, Total number of questions, and an icon
+	[Olawunmi / Harvey] 	3.3 Icon differentiates from users who completed no questions, some questions, or all questions
+	[Olawunmi] 		3.4 From the survey list screen, user pressing android back button quits the application
+	
+4. Taking a Open-Text Survey ( Non Multiple Choice, Numeric, or Audio Questions )
+
+	[Olawunmi / Alex] 	4.1 Switch to a new activity that contains first unanswered question in the survey
+	[Alex] 			4.2 Display Question Title, Question Number, SMS Text prompt ( Question will automatically be in preferred language )
+	[Olawunmi / Alex] 	4.3 User types answer onto a multi-line plain-text entry field and then selects to submit answer
+	[Alex] 			4.4 Application moves to next question after answered (if any)
+	[Alex] 			4.5 Application shows answers to previous questions that were answered
+	[Alex] 			4.6 User can navigate questions by using buttons or other mean of UI ( swiping left or right )
+	[Alex] 			4.7 When last question is answered the user is returned to the main list of available surveys
+	[Olawunmi / Harvey] 	4.8 User can than refresh to see an updated list ( Survey is now partially or fully completed )
+	
+	Variation 1:
+		[Alex] 			- If user presses the Android's back button while answering a survey question, they are returned to the list of surveys
+		  				without the answer being submitted to the server.
+
+	Variation 2:
+		[Olawunmi / Alex] 	- If the user has already completed all questions in a survey, trying to take the survey again starts off at the first
+		  					question in the survey. (Otherwise would try and start at first unanswered question, of which there are none).
+		[Alex] 			- User is able to resubmit and/or skip answers to the survey as before.
+	
+	

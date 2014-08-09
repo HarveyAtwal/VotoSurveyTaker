@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkwhite"
+    tools:context=".QuestionActivity" >
+
+    <!-- activity_screen_slide.xml -->
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:maxHeight="5dip"
+        android:minHeight="5dip"
+        android:progressDrawable="@xml/progress_bar" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ProgressBar"
+        android:paddingRight="5dp" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@xml/diagonal" >
+
+            <TextView
+                android:id="@+id/txtPageNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:paddingRight="2dp"
+                android:text="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#90d403" />
+
+            <TextView
+                android:id="@+id/txtPageSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/txtPageNumber"
+                android:text="6"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#90d403" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <RelativeLayout
+            android:id="@+id/mediaLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="1.0" >
+
+            <SeekBar
+                android:id="@+id/songProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imgButtonMedia"
+                android:layout_toRightOf="@+id/mediaLoading"
+                android:paddingTop="4dp"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/seek_handler" />
+
+            <ImageButton
+                android:id="@+id/imgButtonMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_play" />
+
+            <ProgressBar
+                android:id="@+id/mediaLoading"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imgButtonMedia"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+</RelativeLayout>

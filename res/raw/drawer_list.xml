@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawer>
+	<item type="img" src="ic_home">draw_home</item>
+	
+	<item type="header">draw_settings</item>
+	<item type="img" src="ic_action_settings">draw_general_settings</item>
+	<item type="img" src="ic_action_about">draw_about</item>
+	<item type="img" src="ic_off">draw_log_out</item>
+</drawer>

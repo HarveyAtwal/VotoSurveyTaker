@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VOTO Survey Taker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_question_list">QuestionListActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_survey_lister">Question</string>
+    <string name="moreInfoForSurvey">More survey info>>></string>
+    <string name="refreshing">refreshing the list of surveys....</string>
+    <string name="submit">submit</string>
+    <string name="resubmit">re-submit</string>
+    <string name="submitMessage">answer submitted</string>
+    <string name="invalidPhoneNumber">Invalid Phone Number</string>
+    
+    <string name="survey_lister_title">Surveys</string>
+    <string name="drawer_open">Voto</string>
+    <string name="drawer_close">Survey List</string>
+    
+    <string name="completed_questions">Completed %1$d of %2$d Questions</string>
+    <string name="question">Question </string>
+    <string name="of"> of </string>
+    
+    <string name="swipe_down">Swipe down to refresh</string>
+    <string name="refresh_text">Refreshing Invitations</string>
+
+    <!-- Question Activity -->
+    <string name="introduction">Introduction</string>
+    <string name="conclusion">Conclusion</string>
+    <string name="Open_Question_Label">Enter your answer here and press submit when done</string>
+    
+    <!-- Splash Activity  -->
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="slogan_one">More Voices,</string>
+    <string name="slogan_two">Better choices.</string>
+    
+    <!-- Sign In Activity  -->
+    <string name="sign_in">Sign In</string>
+    <string name="enter_phone_number">Phone number</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_up"><![CDATA[<a href="https://go.votomobile.org/register">Not a member?</a><br/>]]></string>
+    
+    
+    <!-- Settings Activity  -->
+    <string name="language">Language</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="application_settings">Application Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="phone_led">Phone LED</string>
+    
+    <!-- About Activity -->
+    <string name="version">Version %1$s</string>
+    <string name="copyright">\@2014 VotoMobile</string>
+    <string name="developed_by">Developed By:</string>
+    <string name="olawunmi">Olawunmi Kolawole</string>
+    <string name="harveen">Harveen Atwal</string>
+    <string name="alex">Alex Sachkov</string>
+    <string name="brian">Network Proxy Library created also under the MIT open source license by Dr. Brian Fraser, SFU</string>
+    <string name="voto_about">
+        VOTO amplifies the voice of the under-heard. Our mobile phone notification 
+        and survey platform <b>removes the barriers to insightful mobile communication</b>
+        between African citizens and the organizations that serve them.</string>
+    <string name="open_source"><a href="http://www.opensource.org/licenses/MIT">http://www.opensource.org/licenses/MIT</a></string>
+    
+    <string-array name="menu_titles">
+	    <item>Home</item>
+	    <item>Options</item>
+	    <item>General Settings</item>
+	    <item>Help Center</item>
+	    <item>About</item>
+	    <item>Log Out</item>
+   	</string-array>
+    
+    <!-- Drawer Strings -->
+    <string name="draw_home">Home</string>
+    <string name="draw_settings">Options</string>
+    <string name="draw_general_settings">General Settings</string>
+    <string name="draw_help_center">Help Center</string>
+    <string name="draw_about">About</string>
+    <string name="draw_log_out">Log Out</string>
+    
+    <!--  More Details Dialog -->
+    <string name="show_details">Show Details</string>
+    <string name="hide_details">Hide Details</string>
+    <string name="proceed_button_label">Proceed</string>
+    <string name="default_fragment_label">override onCreate to change layout</string>
+    <string name="number_out_of_range">number must be between -2 billion and 2 billion</string>
+    <string name="errorTitle">Error</string>
+    <string name="networkErrorTitle">Network Error</string>
+    <string name="errorMessageA">Could not access the server and no details are available.</string>
+    <string name="errorMessageB">Could not connect to the server.</string>
+    <string name="notification_message">You need to set "Remember Me" check box at log in order to get notifications</string>
+    
+    <!--  Action Icon Names -->
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_next">Next</string>
+    <string name="action_prev">Previous</string>
+    <string name="unsupported_device">This device is not supported.</string>
+</resources>

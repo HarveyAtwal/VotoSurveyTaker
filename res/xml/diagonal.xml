@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- content background -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:left="0dp" android:top="0dp" android:right="0dp"
+    				android:bottom="0dp">
+    <rotate
+            android:fromDegrees="-70"
+            android:toDegrees="-70"
+            android:pivotX="50%"
+            android:pivotY="50%" >
+        <shape
+                android:shape="line"
+                android:top="0dp" >
+            <stroke
+                    android:width="1dip"
+                    android:color="#90d403" />
+            <padding android:left="0dp" android:top="0dp" android:right="0dp"
+    				android:bottom="0dp" />
+        </shape>
+    </rotate>
+</item>
+</selector>

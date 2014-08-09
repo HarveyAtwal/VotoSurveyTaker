@@ -1,0 +1,189 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.Styled"
+    android:background="@color/darkwhite"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp" >
+
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:paddingTop="10dp"
+	        android:singleLine="true"
+	        android:text="@string/account_settings"
+	        android:textAllCaps="true"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#58585b" />
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#a8a8ab" />
+	
+	    <RelativeLayout
+	        android:id="@+id/RelativeLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="5dp"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:paddingTop="10dp" >
+	
+	        <TextView
+	            android:id="@+id/linkTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentTop="true"
+	            android:text="@string/language"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="#58585b" />
+	
+	        <Spinner
+	            android:id="@+id/languageSpinner"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true"
+	            android:layout_toRightOf="@+id/linkTextView" />
+	
+	    </RelativeLayout>
+	
+	    <TextView
+	        android:id="@+id/drawerHeaderListItemTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:paddingTop="25dp"
+	        android:singleLine="true"
+	        android:text="@string/application_settings"
+	        android:textAllCaps="true"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#58585b" />
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#a8a8ab" />
+	
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:paddingTop="10dp" >
+	
+	        <CheckBox
+	            android:id="@+id/notificationsCheckBox"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true" />
+	
+	        <TextView
+	            android:id="@+id/aboutTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/notificationsCheckBox"
+	            android:layout_alignBottom="@+id/notificationsCheckBox"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/notifications"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="#58585b" />
+	
+	    </RelativeLayout>
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1px"
+	        android:background="#a8a8ab" />
+	    
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:paddingTop="10dp" >
+	
+	        <CheckBox
+	            android:id="@+id/checkBox2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true" />
+	
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/checkBox2"
+	            android:layout_alignBottom="@+id/checkBox2"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/vibrate"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="#58585b" />
+	
+	    </RelativeLayout>
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1px"
+	        android:background="#a8a8ab" />
+	    
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:paddingTop="10dp" >
+	
+	        <CheckBox
+	            android:id="@+id/checkBox3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true" />
+	
+	        <TextView
+	            android:id="@+id/textView4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/checkBox3"
+	            android:layout_alignBottom="@+id/checkBox3"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/phone_led"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="#58585b" />
+	
+	    </RelativeLayout>
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1px"
+	        android:background="#a8a8ab" />
+	
+	</LinearLayout>
+</ScrollView>
