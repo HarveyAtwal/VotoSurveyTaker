@@ -1,6 +1,3 @@
-Voto-SurveyTaker
-================
-
 How to run "Voto Survey Taker"
 ------------------------------
 	1. Check-out the following packages
