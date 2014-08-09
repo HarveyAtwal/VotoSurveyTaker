@@ -10,7 +10,7 @@ How to run "Voto Survey Taker"
 		
 		-------Found in shared SVN----------
 		- Volley
-		- VotoProxyTaker
+		- VotoProxyTaker 
 		
 	2. Right click SmoothProgressBar
 		- Click "properties"
